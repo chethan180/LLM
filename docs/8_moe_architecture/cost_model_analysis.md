@@ -1,4 +1,4 @@
-Based on the MoE Architecture issue details and research, let me calculate the training FLOPs required and recommend sparsity targets for reducing compute and memory:
+Based on the MoE Architecture issue details and research, FLOPs required and recommended sparsity targets for reducing compute and memory:
 
 ## **Training FLOPs Calculation**
 
@@ -115,4 +115,3 @@ Compared to training all models densely:
 | 70B MoE | 8.4×10²¹ | **4.2×10²¹** | **50%** |
 | **Total** | **9.5×10²¹** | **5.2×10²¹** | **~45%** |
 
-This sparsity strategy keeps you within hard budget ceilings while maintaining (or improving) model quality through adaptive compute allocation.
